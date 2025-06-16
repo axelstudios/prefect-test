@@ -15,4 +15,4 @@ async def greet_user():
 
     user = await pause_flow_run(wait_for_input=User)
 
-    logger.info(f"Hello, {user.name}!")
+    logger.info(f"Hello, {user.name}! 😉 Your age is {user.age}. 💥")
